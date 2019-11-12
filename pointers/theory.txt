@@ -1,0 +1,42 @@
+int apples = 5;
+int * p = &apples; // p is a pointer to integer and holds the address of apples variable
+
+
+int oranges = *p + 6;  (contents of p + 6)
+
+int * p; // forgot to initialize
+int oranges = *p + 6 // no body knows what p points to
+
+
+int *p = 0 // better --null pointer
+int oranges = *p = 6 // Crash
+
+int *p = 0;
+if (*p) {
+  // not a null pointer
+}
+
+====================== Array ====================
+
+int values[5]; // continuous memory blocks
+
+int values[] = {1,2,3,4,5}; // init array with values 
+
+int values[5] = {1,2,3}; // init array of size 5 with 3 elements, rest are 0
+
+char buffer[1024] = {0};
+
+========================= Array and pointer ====================
+
+int values[5] = { ?, ?, ?, ?, ?}
+
+values[0] = 1 // {1, ?, ?, ?, ?}
+
+values[4] = 1 // {1, ?, ?, ? , 1}
+
+int *ptr = values;
+int *last = $values[4];
+
+++ptr; // point to next
+ptr += 3; ---> point to 3 elements ahead => last element now
+

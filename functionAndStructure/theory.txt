@@ -1,0 +1,35 @@
+functions
+
+reusage stuff for named sequence of stmt
+
+ int celsius_to_fahrenheit(int c) {
+ return c * 9/5 + 32;
+}
+
+ Function sees the copy of c--> this is call by value 
+
+// small functions are inlined by compiler
+
+int celsius_to_fahrenheit(int c);  // function declaration generally inside header file
+
+
+int (* convert) (int from) = celsius_to_fahrenheit;
+
+//use typedef for such pointers
+
+
+====== structure in c======
+
+
+struct color {
+  float red;
+  float green;
+  float blue;
+  flaot alpha;
+}
+
+sturct color ok = {...};
+
+// use typedef for structure
+
+

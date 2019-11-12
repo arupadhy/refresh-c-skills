@@ -1,0 +1,71 @@
+Arithmetic operators in c
+
++
+-
+*
+/
+%
+
+left associative
+
+BODMASS
+
+
+Relational operators
+
+<
+>
+<=
+>=
+
+==
+!=
+
+there is no boolean data type in c
+1- true
+0- false
+
+=============================== anything not zero is considered true
+relational operators have less precedence than arithmetic operator
+
+
+
+=============================== logical Operators
+
+&& 
+||
+
+left to right associativity
+
+short circuit evaluation can be used in c programming
+
+&& have higher precendence than ||
+
+=============================== BitWise Operators ===========================
+
+& - and 
+| - or
+^ - exclusive or
+<< - left shift
+>> - right shift
+
+
+
+=============================== Unary operators ==========================
+! - logical negation
+~ - bitwise compliment
+++ -
+--
+
+============================= Assignment operator ======================
+=
++=
+-=
+%=
+/=
+^=
+>>=
+<<=
+&=
+*=
+

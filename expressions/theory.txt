@@ -1,0 +1,43 @@
+lValue = rValue
+
+lValue must reolve to the object variable name refers to
+
+rValue must the be data placed in the variable
+
+
+c * 9 /5 + 32   --- expresssion
+
+f = c*9/5 + 32; ---- stmt
+
+int apples; ---- declaration
+
+; --- empty stmt
+
+{ stmt1; stmt2; stmt3; } ---- compound stmt
+
+if (expression) stmt else stmt
+
+if (expression) stmt else if (expression) stmt
+
+while(expression) {
+  stmt;
+}
+
+do {
+}
+while(expression);
+
+
+for(first-expression; conditional-expression; loop-expression) {
+  stmt;
+}
+
+=== stops current iteration ===
+continue;
+break;
+
+
+switch(expression) {
+  case 'constant-expression' : stmt break;
+  default: stmt;
+}
